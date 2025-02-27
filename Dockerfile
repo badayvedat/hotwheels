@@ -13,7 +13,7 @@ RUN uv pip install \
 
 ENV FORCE_CUDA=1 MAX_JOBS=32
 
-RUN echo "source .venv/bin/activate" >> ~/.bashrc
+RUN echo "source /.venv/bin/activate" >> ~/.bashrc
 
 ENV FORCE_CUDA=1 MAX_JOBS=32
 
