@@ -23,5 +23,5 @@ ENTRYPOINT ["/bin/bash", "-c", "\
     git clone --recurse-submodules --depth 1 $0 repo && \
     cd repo && \
     /.venv/bin/python -m build --wheel -n --outdir /dist && \
-    echo 'Build completed for $0!' && exit 0 \
+    echo "Build completed for $0!" && exit 0 \
 "]
